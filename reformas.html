@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Reformas Completas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .back-button {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #5a5a5a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-button">← Voltar para o Início</a>
+    <header>
+        <h1>Galeria - Reformas Completas</h1>
+    </header>
+    <main>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="assets/gesso_1.webp" alt="Reforma de Sala"></div>
+            <div class="gallery-item"><img src="assets/gesso_3.jpg" alt="Reforma de Quarto"></div>
+        </div>
+    </main>
+</body>
+</html>
