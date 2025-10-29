@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos de Projetos | Gesso Lara</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            padding: 20px;
+        }
+        .video-item {
+            max-width: 500px;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .video-item iframe {
+            width: 100%;
+            height: 500px; /* Altura padrão para Reels */
+            border: none;
+        }
+        @media (max-width: 600px) {
+            .video-item iframe {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="whatsapp-button" style="position: static; margin: 10px;">Voltar à Home</a>
+        <h1>Vídeos de Projetos</h1>
+        <p>Assista aos nossos Reels e veja a qualidade do nosso trabalho em ação.</p>
+    </header>
+
+    <main>
+        <section class="video-container">
+            <h2>Gesso e Iluminação em Ação</h2>
+            <div class="video-item">
+                <!-- Vídeo 1: DPt7g_ljkrP -->
+                <iframe src="https://www.instagram.com/reel/DPt7g_ljkrP/embed" frameborder="0" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+            </div>
+            
+            <h2>Projeto de Drywall e Elétrica</h2>
+            <div class="video-item">
+                <!-- Vídeo 2: Cqi_eAgN6e4 -->
+                <iframe src="https://www.instagram.com/reel/Cqi_eAgN6e4/embed" frameborder="0" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+            </div>
+            
+            <h2>Acabamento e Detalhes</h2>
+            <div class="video-item">
+                <!-- Vídeo 3: DLfYxAPuo5r -->
+                <iframe src="https://www.instagram.com/reel/DLfYxAPuo5r/embed" frameborder="0" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+            </div>
+            
+            <p style="text-align: center; margin-top: 20px;">
+                <a href="https://www.instagram.com/decoracoesgessolara" target="_blank" style="font-size: 1.2em; color: #007bff; text-decoration: none;">Ver mais vídeos no Instagram</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Gesso Lara Decorações</p>
+    </footer>
+</body>
+</html>
