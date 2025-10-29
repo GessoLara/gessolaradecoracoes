@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gessolara.github.io/gessolaradecoracoes/sitemap.xml
