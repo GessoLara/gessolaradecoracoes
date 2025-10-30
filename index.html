@@ -184,11 +184,11 @@
                  <p><strong>Horário de Atendimento</strong><br>Segunda a Sexta: 8h às 18h</p>
             </div>
             
-            <form>
-                <input type="text" name="nome" placeholder="Nome">
-                <input type="email" name="email" placeholder="Email">
-                <input type="tel" name="telefone" placeholder="Telefone">
-                <textarea name="mensagem" placeholder="Mensagem"></textarea>
+            <form action="mailto:contato@gessolara.com.br" method="post" enctype="text/plain">
+                <input type="text" name="Nome" placeholder="Nome" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="tel" name="Telefone" placeholder="Telefone">
+                <textarea name="Mensagem" placeholder="Mensagem" required></textarea>
                 <button type="submit">Enviar Mensagem</button>
             </form>
         </section>

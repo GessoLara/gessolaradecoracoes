@@ -11,14 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
         history: false // Desativa a mudança de URL na lightbox
     });
 
-    // Adicionar funcionalidade para o botão de Enviar Mensagem (simulação)
-    const form = document.querySelector('#contato form');
-    if (form) {
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Mensagem enviada com sucesso! Em breve entraremos em contato.');
-            form.reset();
-        });
-    }
+// O formulário de contato agora usa a ação mailto no HTML, então o JavaScript de simulação foi removido.
 });
 
