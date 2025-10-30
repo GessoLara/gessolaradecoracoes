@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (portfolioGrid) {
         // Inicializa o Lightbox apenas para os itens que têm o atributo data-lightbox
         new SimpleLightbox('.portfolio-grid a', {
+            selector: 'a[data-lightbox="forro-liso"]',
             navText: ['<', '>'],
             captionDelay: 250,
             captionSelector: 'img',
