@@ -451,3 +451,25 @@ form button:hover {
     color: #007bff; /* Cor de destaque ao passar o mouse */
 }
 
+
+
+/* Estilos para as Subgalerias */
+.galeria-categoria {
+    margin-bottom: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.galeria-categoria h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.galeria-categoria .portfolio-grid {
+    /* Ajusta o grid para as subgalerias */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
