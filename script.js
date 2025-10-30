@@ -1,19 +1,14 @@
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
-    const galeriaLinks = document.querySelectorAll('#servicos a');
-
-    galeriaLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            
-            // Simulação de abertura de galeria
-            const servico = link.closest('li').querySelector('h3').textContent;
-            
-            alert(`Funcionalidade em desenvolvimento: Abrir galeria para: ${servico}.`);
-            
-            // Aqui seria onde o código para abrir uma galeria modal seria implementado.
-            // Por enquanto, usamos um alerta simples para mostrar que o botão está funcionando.
-        });
+    // Inicializa o SimpleLightbox para os itens do portfólio
+    // A classe '.gallery-grid a' garante que apenas os links dentro da galeria sejam afetados
+    var lightbox = new SimpleLightbox('.gallery-grid a', {
+        captionSelector: 'self', // Usa o data-caption do link
+        captionsData: 'caption', // Usa o atributo data-caption
+        captionDelay: 250,
+        closeText: 'Fechar',
+        navText: ['Anterior', 'Próximo'],
+        history: false // Desativa a mudança de URL na lightbox
     });
 
     // Adicionar funcionalidade para o botão de Enviar Mensagem (simulação)
