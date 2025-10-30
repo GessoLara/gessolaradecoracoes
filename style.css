@@ -473,3 +473,8 @@ form button:hover {
     gap: 15px;
 }
 
+
+.hidden-lightbox-item {
+    display: none;
+}
+

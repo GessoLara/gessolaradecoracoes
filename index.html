@@ -8,6 +8,7 @@
     <meta name="description" content="Gesso Lara: 20 anos de experiência em Gesso, Drywall, Iluminação Integrada e Serviços Elétricos em Sorocaba. Transforme seu ambiente com qualidade e profissionalismo.">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-lightbox@2.14.2/dist/simple-lightbox.min.css" integrity="sha256-4O18+5s20d77k/n231+w/K0n52Xo5g5O3Q0v5p5N5w8=" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -66,7 +67,27 @@
             <h2>Portfólio - Nossos Projetos</h2>
             <p>Qualidade e detalhe em cada ambiente. Veja alguns de nossos projetos recentes.</p>
             <div class="portfolio-grid gallery-grid" id="portfolio-items">
-                <a href="assets/gesso/forro_liso_02.jpg" target="_blank" class="portfolio-item">
+                <!-- Itens de Galeria Escondidos para o Lightbox -->
+                <a href="assets/gesso/forro_liso_01.jpg" class="hidden-lightbox-item" data-lightbox="forro-liso" data-title="Forro em Drywall Liso - Fase 1">
+                    <img src="assets/gesso/forro_liso_01.jpg" alt="Forro em Drywall Liso - Fase 1">
+                </a>
+                <a href="assets/gesso/forro_liso_03.jpg" class="hidden-lightbox-item" data-lightbox="forro-liso" data-title="Forro em Drywall Liso - Fase 2">
+                    <img src="assets/gesso/forro_liso_03.jpg" alt="Forro em Drywall Liso - Fase 2">
+                </a>
+                <a href="assets/gesso/forro_liso_04.jpg" class="hidden-lightbox-item" data-lightbox="forro-liso" data-title="Forro em Drywall Liso - Fase 3">
+                    <img src="assets/gesso/forro_liso_04.jpg" alt="Forro em Drywall Liso - Fase 3">
+                </a>
+                <!-- Itens de Galeria Escondidos para o Lightbox -->
+                <a href="assets/gesso/forro_liso_01.jpg" class="hidden-lightbox-item" data-lightbox="forro-liso" data-title="Forro em Drywall Liso - Fase 1">
+                    <img src="assets/gesso/forro_liso_01.jpg" alt="Forro em Drywall Liso - Fase 1">
+                </a>
+                <a href="assets/gesso/forro_liso_03.jpg" class="hidden-lightbox-item" data-lightbox="forro-liso" data-title="Forro em Drywall Liso - Fase 2">
+                    <img src="assets/gesso/forro_liso_03.jpg" alt="Forro em Drywall Liso - Fase 2">
+                </a>
+                <a href="assets/gesso/forro_liso_04.jpg" class="hidden-lightbox-item" data-lightbox="forro-liso" data-title="Forro em Drywall Liso - Fase 3">
+                    <img src="assets/gesso/forro_liso_04.jpg" alt="Forro em Drywall Liso - Fase 3">
+                </a>
+                <a href="assets/gesso/forro_liso_02.jpg" class="portfolio-item" data-lightbox="forro-liso" data-title="Forro em Drywall Liso - Projeto Final">
                     <img src="assets/gesso/forro_liso_02.jpg" alt="Forro em Drywall Liso">
                     <div class="portfolio-text"><h3>Forro Drywall Liso</h3><p>Gesso e Drywall</p></div>
                 </a>
@@ -163,6 +184,7 @@
         <!-- Rodapé, se houver mais conteúdo -->
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/simple-lightbox@2.14.2/dist/simple-lightbox.min.js" integrity="sha256-2e11+0f8+P3n3Q0v5p5N5w8=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
